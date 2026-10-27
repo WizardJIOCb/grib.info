@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /privacy.html
+Disallow: /terms.html
+Sitemap: https://grib.info/sitemap.xml
