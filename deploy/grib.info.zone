@@ -1,0 +1,11 @@
+; Reference copy of the grib.info zone configured in FirstVDS DNSmanager.
+; Domain registration remains at NIC.ru.
+$ORIGIN grib.info.
+$TTL 300
+@ IN SOA ns1.firstvds.ru. tech.firstvds.ru. (
+  2026102804 3600 600 86400 3600
+)
+@ 3600 IN NS ns1.firstvds.ru.
+@ 3600 IN NS ns2.firstvds.ru.
+@ IN A 82.146.42.213
+www IN A 82.146.42.213
