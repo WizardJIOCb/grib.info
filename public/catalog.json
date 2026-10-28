@@ -850,7 +850,13 @@
     "priceSource": "https://t.me/MycoMarket_URAL/131",
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
-    "priceStatus": "published"
+    "priceStatus": "published",
+    "image": "/assets/muhomorych/amosov-paste.png",
+    "imageLabel": "Лавка Шамана",
+    "imageAlt": "Паста Амосова на иллюстрации, предоставленной владельцем витрины",
+    "imageNote": "Иллюстрация предоставлена владельцем витрины. На изображении указано 600 г; в текущем прайсе лавки представлена фасовка 330 г. Упаковку выбранной фасовки уточните у продавца.",
+    "imageFit": "cover",
+    "imageGallery": []
   },
   {
     "id": "mace-oil",
@@ -920,10 +926,23 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/assortment-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/113",
-    "imageAlt": "Ассортимент продукции МухоморыЧ в публикации канала",
-    "imageNote": "Фото ассортимента из канала лавки. Точная упаковка выбранного продукта может отличаться."
+    "image": "/assets/muhomorych/cordyceps-capsules.jpg",
+    "imageSource": "https://drive.google.com/file/d/1b1umdiGYRKAOrRZFmk-gsoIL9srhBxlg/view?usp=drivesdk",
+    "imageAlt": "Кордицепс военный в капсулах МухоморыЧ",
+    "imageNote": "Фото из материалов бренда МухоморыЧ. Дизайн и количество капсул в выбранной упаковке уточните у продавца.",
+    "imageLabel": "МухоморыЧ",
+    "imageFit": "cover",
+    "imageGallery": [
+      {
+        "image": "/assets/muhomorych/cordyceps-capsules-detail.jpg",
+        "alt": "Дополнительное фото упаковки МухоморыЧ",
+        "source": "https://drive.google.com/file/d/1hPzjCgaf5YUB7s1txa_hFWQvwaQE31hw/view?usp=drivesdk"
+      }
+    ],
+    "declaration": {
+      "href": "/documents/muhomorych-capsules-declaration.pdf",
+      "title": "Декларация производителя на грибные капсулы"
+    }
   },
   {
     "id": "cordyceps-extract",
@@ -948,10 +967,17 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/assortment-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/113",
-    "imageAlt": "Ассортимент продукции МухоморыЧ в публикации канала",
-    "imageNote": "Фото ассортимента из канала лавки. Точная упаковка выбранного продукта может отличаться."
+    "image": "/assets/muhomorych/cordyceps-extract.png",
+    "imageSource": "https://muhomorych.ru/ekstrakt-korditsepsa-voennogo",
+    "imageAlt": "Жидкий экстракт кордицепса МухоморыЧ",
+    "imageNote": "Изображение из каталога производителя МухоморыЧ. Маркировку, состав и фасовку выбранного товара уточните у продавца.",
+    "imageLabel": "МухоморыЧ",
+    "imageFit": "contain",
+    "imageGallery": [],
+    "declaration": {
+      "href": "/documents/muhomorych-liquid-declaration.pdf",
+      "title": "Декларация производителя на жидкие концентраты"
+    }
   },
   {
     "id": "lions-capsules",
@@ -976,10 +1002,23 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/assortment-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/113",
-    "imageAlt": "Ассортимент продукции МухоморыЧ в публикации канала",
-    "imageNote": "Фото ассортимента из канала лавки. Точная упаковка выбранного продукта может отличаться."
+    "image": "/assets/muhomorych/lions-capsules.jpg",
+    "imageSource": "https://drive.google.com/file/d/11XcgMZhelwWZ3TN83cZeJutOIoqKKsSG/view?usp=drivesdk",
+    "imageAlt": "Ежовик гребенчатый в капсулах МухоморыЧ",
+    "imageNote": "Фото из материалов бренда МухоморыЧ. Дизайн и количество капсул в выбранной упаковке уточните у продавца.",
+    "imageLabel": "МухоморыЧ",
+    "imageFit": "cover",
+    "imageGallery": [
+      {
+        "image": "/assets/muhomorych/lions-capsules-detail.jpg",
+        "alt": "Дополнительное фото упаковки МухоморыЧ",
+        "source": "https://drive.google.com/file/d/1nWHbC6Rtin-NcdeHsxCo9nNNUq8pOWmt/view?usp=drivesdk"
+      }
+    ],
+    "declaration": {
+      "href": "/documents/muhomorych-capsules-declaration.pdf",
+      "title": "Декларация производителя на грибные капсулы"
+    }
   },
   {
     "id": "lions-extract",
@@ -1004,10 +1043,17 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/assortment-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/113",
-    "imageAlt": "Ассортимент продукции МухоморыЧ в публикации канала",
-    "imageNote": "Фото ассортимента из канала лавки. Точная упаковка выбранного продукта может отличаться."
+    "image": "/assets/muhomorych/lions-extract.png",
+    "imageSource": "https://muhomorych.ru/ekstrakt-ejovika-grebenchatogo",
+    "imageAlt": "Жидкий экстракт ежовика МухоморыЧ",
+    "imageNote": "Изображение из каталога производителя МухоморыЧ. Маркировку, состав и фасовку выбранного товара уточните у продавца.",
+    "imageLabel": "МухоморыЧ",
+    "imageFit": "contain",
+    "imageGallery": [],
+    "declaration": {
+      "href": "/documents/muhomorych-liquid-declaration.pdf",
+      "title": "Декларация производителя на жидкие концентраты"
+    }
   },
   {
     "id": "tibetan-cordyceps",
@@ -1053,5 +1099,87 @@
     "imageAlt": "Иван чай — изображение из каталога Лавки Шамана",
     "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
     "imageLabel": "Лавка Шамана"
+  },
+  {
+    "id": "qist-oil",
+    "name": "Кыст аль-Хинди · масло",
+    "category": "archive",
+    "label": "Масло в капсулах · по запросу",
+    "description": "Количество капсул, фасовка и стоимость уточняются.",
+    "variants": [
+      {
+        "label": "Фасовка по согласованию",
+        "price": null
+      }
+    ],
+    "color": "#e2e4df",
+    "ink": "#748274",
+    "art": "bag",
+    "artLabel": "Уточните у продавца",
+    "code": "34",
+    "details": "Масло кыста аль-Хинди в капсулах. Продукт добавлен по предоставленному изображению. Полный состав, количество капсул, производителя, назначение и наличие уточните у продавца.",
+    "sourceNote": "Изображение предоставлено владельцем витрины. Подтверждённого прайса и фасовки пока нет.",
+    "priceStatus": "on_request",
+    "image": "/assets/muhomorych/qist-oil.jpg",
+    "imageLabel": "МухоморыЧ",
+    "imageAlt": "Масло кыста аль-Хинди в капсулах МухоморыЧ",
+    "imageNote": "Изображение предоставлено владельцем витрины. Количество капсул, фасовку, стоимость и наличие уточните у продавца.",
+    "imageFit": "cover",
+    "imageGallery": []
+  },
+  {
+    "id": "black-cumin-oil",
+    "name": "Чёрный тмин · масло",
+    "category": "archive",
+    "label": "Масло в капсулах · по запросу",
+    "description": "Количество капсул, фасовка и стоимость уточняются.",
+    "variants": [
+      {
+        "label": "Фасовка по согласованию",
+        "price": null
+      }
+    ],
+    "color": "#e2e4df",
+    "ink": "#748274",
+    "art": "bag",
+    "artLabel": "Уточните у продавца",
+    "code": "35",
+    "details": "Масло чёрного тмина в капсулах. Продукт добавлен по предоставленному изображению. Полный состав, количество капсул, производителя, назначение и наличие уточните у продавца.",
+    "sourceNote": "Изображение предоставлено владельцем витрины. Подтверждённого прайса и фасовки пока нет.",
+    "priceStatus": "on_request",
+    "image": "/assets/muhomorych/black-cumin-oil.jpg",
+    "imageLabel": "МухоморыЧ",
+    "imageAlt": "Масло чёрного тмина в капсулах МухоморыЧ",
+    "imageNote": "Изображение предоставлено владельцем витрины. Количество капсул, фасовку, стоимость и наличие уточните у продавца.",
+    "imageFit": "cover",
+    "imageGallery": []
+  },
+  {
+    "id": "veselka-extract",
+    "name": "Весёлка · экстракт",
+    "category": "archive",
+    "label": "Экстракт в капсулах · по запросу",
+    "description": "Количество капсул, фасовка и стоимость уточняются.",
+    "variants": [
+      {
+        "label": "Фасовка по согласованию",
+        "price": null
+      }
+    ],
+    "color": "#e2e4df",
+    "ink": "#748274",
+    "art": "bag",
+    "artLabel": "Уточните у продавца",
+    "code": "36",
+    "details": "Экстракт весёлки в капсулах. Продукт добавлен по предоставленным материалам МухоморыЧа. Полный состав, количество капсул, назначение и наличие уточните у продавца.",
+    "sourceNote": "Товар добавлен по материалам владельца витрины и изображению производителя. Подтверждённого прайса и фасовки пока нет.",
+    "priceStatus": "on_request",
+    "image": "/assets/muhomorych/veselka-extract.jpg",
+    "imageSource": "https://muhomorych.ru/vesyolka-ekstrakt",
+    "imageLabel": "МухоморыЧ",
+    "imageAlt": "Экстракт весёлки в капсулах МухоморыЧ",
+    "imageNote": "Изображение из каталога производителя МухоморыЧ. Маркировку, состав и фасовку выбранного товара уточните у продавца.",
+    "imageFit": "cover",
+    "imageGallery": []
   }
 ]

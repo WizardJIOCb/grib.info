@@ -47,5 +47,24 @@ export function enrichCatalog(products) {
       imageNote:'Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.'
     });
   }
+  for (const source of supplierImages.filter(source=>source.collection==='brand-materials-20261028')) {
+    const product=products.find(product=>product.id===source.productId);
+    if (!product) throw new Error('Unknown product for brand image: '+source.productId);
+    Object.assign(product,{
+      image:'/assets/'+source.file,
+      imageSource:source.source,
+      imageLabel:source.label,
+      imageAlt:source.alt,
+      imageNote:source.note,
+      imageFit:source.fit||'cover',
+      imageGallery:source.gallery||[]
+    });
+  }
+  for (const id of ['lions-capsules','cordyceps-capsules']) {
+    products.find(product=>product.id===id).declaration={href:'/documents/muhomorych-capsules-declaration.pdf',title:'Декларация производителя на грибные капсулы'};
+  }
+  for (const id of ['lions-extract','cordyceps-extract']) {
+    products.find(product=>product.id===id).declaration={href:'/documents/muhomorych-liquid-declaration.pdf',title:'Декларация производителя на жидкие концентраты'};
+  }
   return products;
 }

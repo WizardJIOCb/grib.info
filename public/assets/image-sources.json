@@ -343,5 +343,112 @@
     "checkedAt": "2026-10-28",
     "role": "Product image from the supplier catalog; reuse authorized by the site owner.",
     "supplier": "shamanchik.ru"
+  },
+  {
+    "collection": "brand-materials-20261028",
+    "productId": "lions-capsules",
+    "file": "muhomorych/lions-capsules.jpg",
+    "label": "МухоморыЧ",
+    "alt": "Ежовик гребенчатый в капсулах МухоморыЧ",
+    "note": "Фото из материалов бренда МухоморыЧ. Дизайн и количество капсул в выбранной упаковке уточните у продавца.",
+    "fit": "cover",
+    "sha256": "8856746aae3da5e5db3c8973478aa8ed9ec8185b452deac32eb06e9a27e9e735",
+    "checkedAt": "2026-10-28",
+    "source": "https://drive.google.com/file/d/11XcgMZhelwWZ3TN83cZeJutOIoqKKsSG/view?usp=drivesdk",
+    "gallery": [
+      {
+        "image": "/assets/muhomorych/lions-capsules-detail.jpg",
+        "alt": "Дополнительное фото упаковки МухоморыЧ",
+        "source": "https://drive.google.com/file/d/1nWHbC6Rtin-NcdeHsxCo9nNNUq8pOWmt/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "collection": "brand-materials-20261028",
+    "productId": "cordyceps-capsules",
+    "file": "muhomorych/cordyceps-capsules.jpg",
+    "label": "МухоморыЧ",
+    "alt": "Кордицепс военный в капсулах МухоморыЧ",
+    "note": "Фото из материалов бренда МухоморыЧ. Дизайн и количество капсул в выбранной упаковке уточните у продавца.",
+    "fit": "cover",
+    "sha256": "8cb5fd23b6d6e9ed69fc28007957f2d5a5b4698ee67543e86e221aa0f8443d68",
+    "checkedAt": "2026-10-28",
+    "source": "https://drive.google.com/file/d/1b1umdiGYRKAOrRZFmk-gsoIL9srhBxlg/view?usp=drivesdk",
+    "gallery": [
+      {
+        "image": "/assets/muhomorych/cordyceps-capsules-detail.jpg",
+        "alt": "Дополнительное фото упаковки МухоморыЧ",
+        "source": "https://drive.google.com/file/d/1hPzjCgaf5YUB7s1txa_hFWQvwaQE31hw/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "collection": "brand-materials-20261028",
+    "productId": "lions-extract",
+    "file": "muhomorych/lions-extract.png",
+    "label": "МухоморыЧ",
+    "alt": "Жидкий экстракт ежовика МухоморыЧ",
+    "note": "Изображение из каталога производителя МухоморыЧ. Маркировку, состав и фасовку выбранного товара уточните у продавца.",
+    "fit": "contain",
+    "sha256": "b8830afb2969ed846ae54190e6b39fd9c3958c9bc5d970ec71182d8f1b690752",
+    "checkedAt": "2026-10-28",
+    "source": "https://muhomorych.ru/ekstrakt-ejovika-grebenchatogo"
+  },
+  {
+    "collection": "brand-materials-20261028",
+    "productId": "cordyceps-extract",
+    "file": "muhomorych/cordyceps-extract.png",
+    "label": "МухоморыЧ",
+    "alt": "Жидкий экстракт кордицепса МухоморыЧ",
+    "note": "Изображение из каталога производителя МухоморыЧ. Маркировку, состав и фасовку выбранного товара уточните у продавца.",
+    "fit": "contain",
+    "sha256": "579016947be78f1d562d4dc948cced51d09f8c7b878426cea8e8dc493e1cb630",
+    "checkedAt": "2026-10-28",
+    "source": "https://muhomorych.ru/ekstrakt-korditsepsa-voennogo"
+  },
+  {
+    "collection": "brand-materials-20261028",
+    "productId": "veselka-extract",
+    "file": "muhomorych/veselka-extract.jpg",
+    "label": "МухоморыЧ",
+    "alt": "Экстракт весёлки в капсулах МухоморыЧ",
+    "note": "Изображение из каталога производителя МухоморыЧ. Маркировку, состав и фасовку выбранного товара уточните у продавца.",
+    "fit": "cover",
+    "sha256": "5a45a8959b0a0304bad3264139c27d4c026614189eb2fe64fba2d8c6a896dedd",
+    "checkedAt": "2026-10-28",
+    "source": "https://muhomorych.ru/vesyolka-ekstrakt"
+  },
+  {
+    "collection": "brand-materials-20261028",
+    "productId": "amosov-paste",
+    "file": "muhomorych/amosov-paste.png",
+    "label": "Лавка Шамана",
+    "alt": "Паста Амосова на иллюстрации, предоставленной владельцем витрины",
+    "note": "Иллюстрация предоставлена владельцем витрины. На изображении указано 600 г; в текущем прайсе лавки представлена фасовка 330 г. Упаковку выбранной фасовки уточните у продавца.",
+    "fit": "cover",
+    "sha256": "711432c3b1df59491103b6a5ee2522526669c5f330fc0e613b43a614b3d941b6",
+    "checkedAt": "2026-10-28"
+  },
+  {
+    "collection": "brand-materials-20261028",
+    "productId": "qist-oil",
+    "file": "muhomorych/qist-oil.jpg",
+    "label": "МухоморыЧ",
+    "alt": "Масло кыста аль-Хинди в капсулах МухоморыЧ",
+    "note": "Изображение предоставлено владельцем витрины. Количество капсул, фасовку, стоимость и наличие уточните у продавца.",
+    "fit": "cover",
+    "sha256": "8ac954838aae29ca0b86b5399ed49d127c61b70a2638281e2551b41ae9d440c3",
+    "checkedAt": "2026-10-28"
+  },
+  {
+    "collection": "brand-materials-20261028",
+    "productId": "black-cumin-oil",
+    "file": "muhomorych/black-cumin-oil.jpg",
+    "label": "МухоморыЧ",
+    "alt": "Масло чёрного тмина в капсулах МухоморыЧ",
+    "note": "Изображение предоставлено владельцем витрины. Количество капсул, фасовку, стоимость и наличие уточните у продавца.",
+    "fit": "cover",
+    "sha256": "b860d51b955443f7a9dcd9588d6edaee02522f23145620764de8e7593476e960",
+    "checkedAt": "2026-10-28"
   }
 ]
