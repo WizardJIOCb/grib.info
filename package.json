@@ -3,5 +3,5 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": {"start": "node server.mjs", "check": "node --check public/app.js && node --check server.mjs && node --check build-catalog.mjs && node --check enrich-catalog.mjs"}
+  "scripts": {"start": "node server.mjs", "check": "node --check public/app.js && node --check public/metrika.js && node --check server.mjs && node --check build-catalog.mjs && node --check enrich-catalog.mjs"}
 }
