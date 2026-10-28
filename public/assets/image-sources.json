@@ -450,5 +450,17 @@
     "fit": "cover",
     "sha256": "b860d51b955443f7a9dcd9588d6edaee02522f23145620764de8e7593476e960",
     "checkedAt": "2026-10-28"
+  },
+  {
+    "collection": "brand-materials-20261028",
+    "productId": "tibetan-cordyceps",
+    "file": "muhomorych/tibetan-cordyceps.jpg",
+    "label": "МухоморыЧ",
+    "alt": "Тибетский кордицепс на изображении из каталога МухоморыЧ",
+    "note": "Изображение товара «Тибетский кордицепс» из каталога производителя МухоморыЧ. Фасовку, вид сырья и упаковку конкретной партии уточните у продавца.",
+    "source": "https://muhomorych.ru/tibetskiy-korditseps",
+    "originalImageSource": "https://muhomorych.ru/uploads/product/200/270/IMG_0110.JPG",
+    "sha256": "2fe654e8b918169be7b28f486ff0abbb46d5b8b5f45fc5b4022744517c3690d6",
+    "checkedAt": "2026-10-28"
   }
 ]
