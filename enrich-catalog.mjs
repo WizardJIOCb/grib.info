@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+
 // Prices and illustrations checked against the owner's public Telegram channel
 // on 2026-10-28. This records published prices, not confirmed stock availability.
 export function enrichCatalog(products) {
@@ -31,5 +33,19 @@ export function enrichCatalog(products) {
   lions.priceStatus='conflict';
   lions.sourceNote+=' Для 300 г есть расхождение: общий прайс — 2700 ₽, отдельный пост о ежовике — 2100 ₽. Перед оплатой уточните цену.';
   lions.alternativePriceSource='https://t.me/MycoMarket_URAL/121';
+  // Supplier images are stored locally; only matched products receive them.
+  // Keep the seller's catalog, descriptions and prices independent of the supplier.
+  const supplierImages=JSON.parse(readFileSync(new URL('./public/assets/image-sources.json',import.meta.url),'utf8'));
+  for (const source of supplierImages.filter(source=>source.supplier==='shamanchik.ru')) {
+    const product=products.find(product=>product.id===source.productId);
+    if (!product) throw new Error('Unknown product for supplier image: '+source.productId);
+    Object.assign(product,{
+      image:'/assets/'+source.file,
+      imageSource:source.source,
+      imageLabel:'Лавка Шамана',
+      imageAlt:product.name+' — изображение из каталога Лавки Шамана',
+      imageNote:'Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.'
+    });
+  }
   return products;
 }

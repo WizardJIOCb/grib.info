@@ -30,10 +30,11 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/soma-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/132",
-    "imageAlt": "Грибные Сомы на иллюстрации из Telegram канала лавки",
-    "imageNote": "Изображение из канала лавки. Вид и маркировку выбранной фасовки уточните у продавца."
+    "image": "/assets/shamanchik/soma-panther.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/1781198477357-3c9537fe-0a03-497e-874d-1ad47cf00c85-photo_2026-06-10_19-34-05.jpg",
+    "imageAlt": "Пантерная Сома — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "soma-royal",
@@ -98,10 +99,11 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/soma-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/132",
-    "imageAlt": "Грибные Сомы на иллюстрации из Telegram канала лавки",
-    "imageNote": "Изображение из канала лавки. Вид и маркировку выбранной фасовки уточните у продавца."
+    "image": "/assets/shamanchik/soma-red.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/1781198069382-ce1e81e9-955e-4f79-9df3-24262d4d3472-photo_2026-06-10_19-25-37__2_.jpg",
+    "imageAlt": "Красная Сома — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "soma-mix",
@@ -134,10 +136,11 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/soma-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/132",
-    "imageAlt": "Грибные Сомы на иллюстрации из Telegram канала лавки",
-    "imageNote": "Изображение из канала лавки. Вид и маркировку выбранной фасовки уточните у продавца."
+    "image": "/assets/shamanchik/soma-mix.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/1781198527350-9058171d-5a4c-43cd-a15b-56c02c4ee578-photo_2026-06-10_19-25-37__2_.jpg",
+    "imageAlt": "Красно-пантерная Сома — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "fungal-soma-lions",
@@ -166,10 +169,11 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/soma-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/132",
-    "imageAlt": "Грибные Сомы на иллюстрации из Telegram канала лавки",
-    "imageNote": "Изображение из канала лавки. Вид и маркировку выбранной фасовки уточните у продавца."
+    "image": "/assets/shamanchik/fungal-soma-lions.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/1781197009269-c379728e-2122-479c-8555-4d309d0c7e5b-photo_2026-06-10_18-23-28.jpg",
+    "imageAlt": "Грибная Сома · Ежовик — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "fungal-soma-trametes",
@@ -198,10 +202,11 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/soma-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/132",
-    "imageAlt": "Грибные Сомы на иллюстрации из Telegram канала лавки",
-    "imageNote": "Изображение из канала лавки. Вид и маркировку выбранной фасовки уточните у продавца."
+    "image": "/assets/shamanchik/fungal-soma-trametes.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/1781195470314-f53bd608-245e-4fd6-babc-2d89bd7afdfa-photo_2026-06-10_21-31-13.jpg",
+    "imageAlt": "Грибная Сома · Траметес — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "fungal-soma-cordyceps",
@@ -230,10 +235,11 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/soma-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/132",
-    "imageAlt": "Грибные Сомы на иллюстрации из Telegram канала лавки",
-    "imageNote": "Изображение из канала лавки. Вид и маркировку выбранной фасовки уточните у продавца."
+    "image": "/assets/shamanchik/fungal-soma-cordyceps.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/1781196619399-f41c68c0-b520-48c6-882d-2a851716ce16-photo_2026-06-10_14-47-02.jpg",
+    "imageAlt": "Грибная Сома · Кордицепс — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "fungal-soma-reishi",
@@ -262,10 +268,11 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/soma-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/132",
-    "imageAlt": "Грибные Сомы на иллюстрации из Telegram канала лавки",
-    "imageNote": "Изображение из канала лавки. Вид и маркировку выбранной фасовки уточните у продавца."
+    "image": "/assets/shamanchik/fungal-soma-reishi.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/1781196027707-31999e35-0c0d-4b96-9de4-7b8524a2ad55-photo_2026-06-10_14-39-06.jpg",
+    "imageAlt": "Грибная Сома · Рейши — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "fungal-soma-shiitake",
@@ -294,10 +301,11 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/soma-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/132",
-    "imageAlt": "Грибные Сомы на иллюстрации из Telegram канала лавки",
-    "imageNote": "Изображение из канала лавки. Вид и маркировку выбранной фасовки уточните у продавца."
+    "image": "/assets/shamanchik/fungal-soma-shiitake.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/1781197120273-33c55755-b7d9-4371-845b-e0f5e5d18942-photo_2026-06-10_18-28-25.jpg",
+    "imageAlt": "Грибная Сома · Шиитаке — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "fungal-soma-maitake",
@@ -326,10 +334,11 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/maitake-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/123",
-    "imageAlt": "Мейтаке на фотографии, опубликованной в канале лавки",
-    "imageNote": "Изображение гриба из канала лавки. Это не фотография готовой фасовки."
+    "image": "/assets/shamanchik/fungal-soma-maitake.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/1781197414431-87a5e229-bbc0-4757-bee6-4fcd767820b2-photo_2026-06-10_18-53-33.jpg",
+    "imageAlt": "Грибная Сома · Мейтаке — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "red-caps",
@@ -357,7 +366,12 @@
     "priceSource": "https://t.me/MycoMarket_URAL/131",
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
-    "priceStatus": "published"
+    "priceStatus": "published",
+    "image": "/assets/shamanchik/red-caps.jpg",
+    "imageSource": "https://shamanchik.ru/product-images/1781347737142-14da121b-d491-410f-b8c1-7c743f33c325-photo_2026-06-13_13-48-21.jpg",
+    "imageLabel": "Лавка Шамана",
+    "imageAlt": "Красный гриб · шляпки — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца."
   },
   {
     "id": "red-ground",
@@ -385,7 +399,12 @@
     "priceSource": "https://t.me/MycoMarket_URAL/131",
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
-    "priceStatus": "published"
+    "priceStatus": "published",
+    "image": "/assets/shamanchik/red-ground.jpg",
+    "imageSource": "https://shamanchik.ru/product-images/1781348562148-6ce04117-cda4-4b56-b9d1-0fbdd1fd2146-photo_2026-06-13_13-54-17__3_.jpg",
+    "imageLabel": "Лавка Шамана",
+    "imageAlt": "Красный гриб · молотый — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца."
   },
   {
     "id": "royal-dry",
@@ -487,11 +506,12 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "conflict",
-    "image": "/assets/lions-mane-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/39",
-    "imageAlt": "Плодовое тело ежовика гребенчатого и мицелий на иллюстрации из канала",
-    "imageNote": "Иллюстрация вида гриба из канала лавки. Это не фотография готовой фасовки.",
-    "alternativePriceSource": "https://t.me/MycoMarket_URAL/121"
+    "image": "/assets/shamanchik/lions-fruit.jpg",
+    "imageSource": "https://shamanchik.ru/product-images/1781348585785-7e2236f8-7485-47b7-a0f3-a12c02455ef5-photo_2026-06-13_14-02-14.jpg",
+    "imageAlt": "Ежовик гребенчатый — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "alternativePriceSource": "https://t.me/MycoMarket_URAL/121",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "cordyceps-fruit",
@@ -576,10 +596,11 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/lions-mane-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/39",
-    "imageAlt": "Плодовое тело ежовика гребенчатого и мицелий на иллюстрации из канала",
-    "imageNote": "Иллюстрация вида гриба из канала лавки. Это не фотография готовой фасовки."
+    "image": "/assets/shamanchik/mycelium-lions.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/5280717940783258075.jpg",
+    "imageAlt": "Зерномицелий · Ежовик — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "mycelium-trametes",
@@ -607,7 +628,12 @@
     "priceSource": "https://t.me/MycoMarket_URAL/131",
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
-    "priceStatus": "published"
+    "priceStatus": "published",
+    "image": "/assets/shamanchik/mycelium-trametes.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/5280717940783258141.jpg",
+    "imageLabel": "Лавка Шамана",
+    "imageAlt": "Зерномицелий · Траметес — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца."
   },
   {
     "id": "mycelium-cordyceps",
@@ -635,7 +661,12 @@
     "priceSource": "https://t.me/MycoMarket_URAL/131",
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
-    "priceStatus": "published"
+    "priceStatus": "published",
+    "image": "/assets/shamanchik/mycelium-cordyceps.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/5280717940783258087.jpg",
+    "imageLabel": "Лавка Шамана",
+    "imageAlt": "Зерномицелий · Кордицепс — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца."
   },
   {
     "id": "mycelium-reishi",
@@ -663,7 +694,12 @@
     "priceSource": "https://t.me/MycoMarket_URAL/131",
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
-    "priceStatus": "published"
+    "priceStatus": "published",
+    "image": "/assets/shamanchik/mycelium-reishi.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/5280717940783258106.jpg",
+    "imageLabel": "Лавка Шамана",
+    "imageAlt": "Зерномицелий · Рейши — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца."
   },
   {
     "id": "mycelium-shiitake",
@@ -691,7 +727,12 @@
     "priceSource": "https://t.me/MycoMarket_URAL/131",
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
-    "priceStatus": "published"
+    "priceStatus": "published",
+    "image": "/assets/shamanchik/mycelium-shiitake.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/5280717940783258036.jpg",
+    "imageLabel": "Лавка Шамана",
+    "imageAlt": "Зерномицелий · Шиитаке — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца."
   },
   {
     "id": "mycelium-maitake",
@@ -720,10 +761,11 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/maitake-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/123",
-    "imageAlt": "Мейтаке на фотографии, опубликованной в канале лавки",
-    "imageNote": "Изображение гриба из канала лавки. Это не фотография готовой фасовки."
+    "image": "/assets/shamanchik/mycelium-maitake.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/5280717940783258066.jpg",
+    "imageAlt": "Зерномицелий · Мейтаке — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "honey-sweet-clover",
@@ -752,10 +794,11 @@
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "image": "/assets/honey-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/103",
-    "imageAlt": "Мёд и соты на иллюстрации из канала лавки",
-    "imageNote": "Изображение из канала лавки. Вид и маркировку выбранной фасовки уточните у продавца."
+    "image": "/assets/shamanchik/honey-sweet-clover.jpg",
+    "imageSource": "https://shamanchik.ru/images/products/5285301568536256295.jpg",
+    "imageAlt": "Мёд донник — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "honey-herbs",
@@ -844,14 +887,15 @@
     "code": "27",
     "details": "Масло мацис из Шри Ланки, в прайсе обозначено PREMIUM. Опубликованные цены найдены в общем прайсе от 21 октября и отдельной записи от 17 октября. Полный состав, назначение и маркировку партии уточните у продавца.",
     "sourceNote": "Цены из общего прайса Telegram канала от 21 октября; они также опубликованы в записи о мацисе от 17 октября.",
-    "image": "/assets/mace-oil.jpg",
+    "image": "/assets/shamanchik/mace-oil.jpg",
     "priceSource": "https://t.me/MycoMarket_URAL/131",
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
     "priceStatus": "published",
-    "imageSource": "https://t.me/MycoMarket_URAL/125",
-    "imageAlt": "Масло мацис на иллюстрации из канала лавки",
-    "imageNote": "Изображение из канала лавки. Вид и маркировку выбранной фасовки уточните у продавца."
+    "imageSource": "https://shamanchik.ru/images/products/5285138462858224203.jpg",
+    "imageAlt": "Масло мацис — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   },
   {
     "id": "cordyceps-capsules",
@@ -1004,9 +1048,10 @@
     "code": "33",
     "details": "Иван чай упоминается в списке форматов продукции сообщества. Отдельной фасовки и цены в предоставленной странице нет. Уточните текущий ассортимент у продавца.",
     "sourceNote": "Товар из ранней записи сообщества. Наличие и актуальную стоимость нужно подтвердить перед заказом.",
-    "image": "/assets/tea-channel.jpg",
-    "imageSource": "https://t.me/MycoMarket_URAL/42",
-    "imageAlt": "Чайная композиция из публикации канала лавки",
-    "imageNote": "Чайная иллюстрация из канала. Состав и внешний вид конкретного чая уточните у продавца."
+    "image": "/assets/shamanchik/ivan-tea.jpg",
+    "imageSource": "https://shamanchik.ru/product-images/1783431148726-482f9a2b-d445-4940-a3dc-c6d2c4765201-_________-_______.jpg",
+    "imageAlt": "Иван чай — изображение из каталога Лавки Шамана",
+    "imageNote": "Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.",
+    "imageLabel": "Лавка Шамана"
   }
 ]
