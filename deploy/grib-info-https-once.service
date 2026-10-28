@@ -1,0 +1,11 @@
+[Unit]
+Description=One-time HTTPS activation for grib.info after DNS propagation
+Wants=network-online.target
+After=network-online.target nginx.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /var/www/grib.info/deploy/wait-and-activate-https.sh
+TimeoutStartSec=9h
+Restart=no
+UMask=0077
