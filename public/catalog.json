@@ -440,7 +440,36 @@
     "priceSource": "https://t.me/MycoMarket_URAL/131",
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
-    "priceStatus": "published"
+    "priceStatus": "published",
+    "image": "/assets/shamanchik/royal-dry.jpg",
+    "imageLabel": "Лавка Шамана",
+    "imageAlt": "Королевский гриб, шляпки — изображение Лавки Шамана из предоставленных материалов",
+    "imageNote": "Изображения Лавки Шамана, переданные владельцем витрины через Telegram. Основное изображение — шляпки королевского гриба; ниже показан молотый вариант. Вид упаковки и фасовку выбранного товара уточните у продавца.",
+    "imageGallery": [
+      {
+        "image": "/assets/shamanchik/royal-ground.jpg",
+        "alt": "Королевский гриб, молотый — изображение из предоставленных материалов",
+        "sha256": "38dced610716876059be774d54addeacfa782a620926496feaa2837d2eb5ca67"
+      }
+    ],
+    "variantImages": {
+      "0": {
+        "image": "/assets/shamanchik/royal-dry.jpg",
+        "alt": "Королевский гриб, шляпки"
+      },
+      "1": {
+        "image": "/assets/shamanchik/royal-dry.jpg",
+        "alt": "Королевский гриб, шляпки"
+      },
+      "2": {
+        "image": "/assets/shamanchik/royal-ground.jpg",
+        "alt": "Королевский гриб, молотый"
+      },
+      "3": {
+        "image": "/assets/shamanchik/royal-ground.jpg",
+        "alt": "Королевский гриб, молотый"
+      }
+    }
   },
   {
     "id": "panther-dry",
@@ -599,7 +628,11 @@
     "priceSource": "https://t.me/MycoMarket_URAL/131",
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
-    "priceStatus": "published"
+    "priceStatus": "published",
+    "image": "/assets/shamanchik/chanterelle.jpg",
+    "imageLabel": "Лавка Шамана",
+    "imageAlt": "Лисички, молотое плодовое тело — изображение из предоставленных материалов",
+    "imageNote": "Изображение молотых лисичек Лавки Шамана, переданное владельцем витрины через Telegram. Вид упаковки и фасовку выбранного товара уточните у продавца."
   },
   {
     "id": "mycelium-lions",

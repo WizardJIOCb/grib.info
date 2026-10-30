@@ -501,5 +501,52 @@
         "alt": "Пантерный гриб, молотый — изображение из каталога Лавки Шамана"
       }
     }
+  },
+  {
+    "supplier": "shamanchik.ru",
+    "sourceType": "owner-provided-telegram",
+    "sourceLabel": "Изображения Лавки Шамана, пересланные владельцем витрины в Telegram",
+    "productId": "royal-dry",
+    "file": "shamanchik/royal-dry.jpg",
+    "sha256": "1ec5444e659c453dbe82241c43dfa28dad4bae1edefd00904c0e58c54092e63b",
+    "checkedAt": "2026-10-30",
+    "alt": "Королевский гриб, шляпки — изображение Лавки Шамана из предоставленных материалов",
+    "note": "Изображения Лавки Шамана, переданные владельцем витрины через Telegram. Основное изображение — шляпки королевского гриба; ниже показан молотый вариант. Вид упаковки и фасовку выбранного товара уточните у продавца.",
+    "gallery": [
+      {
+        "image": "/assets/shamanchik/royal-ground.jpg",
+        "alt": "Королевский гриб, молотый — изображение из предоставленных материалов",
+        "sha256": "38dced610716876059be774d54addeacfa782a620926496feaa2837d2eb5ca67"
+      }
+    ],
+    "variantImages": {
+      "0": {
+        "image": "/assets/shamanchik/royal-dry.jpg",
+        "alt": "Королевский гриб, шляпки"
+      },
+      "1": {
+        "image": "/assets/shamanchik/royal-dry.jpg",
+        "alt": "Королевский гриб, шляпки"
+      },
+      "2": {
+        "image": "/assets/shamanchik/royal-ground.jpg",
+        "alt": "Королевский гриб, молотый"
+      },
+      "3": {
+        "image": "/assets/shamanchik/royal-ground.jpg",
+        "alt": "Королевский гриб, молотый"
+      }
+    }
+  },
+  {
+    "supplier": "shamanchik.ru",
+    "sourceType": "owner-provided-telegram",
+    "sourceLabel": "Изображение Лавки Шамана, пересланное владельцем витрины в Telegram",
+    "productId": "chanterelle",
+    "file": "shamanchik/chanterelle.jpg",
+    "sha256": "fc24d312010bcc37238f1eb2217beb7beaf238bc962b964ce84fed266b8ba873",
+    "checkedAt": "2026-10-30",
+    "alt": "Лисички, молотое плодовое тело — изображение из предоставленных материалов",
+    "note": "Изображение молотых лисичек Лавки Шамана, переданное владельцем витрины через Telegram. Вид упаковки и фасовку выбранного товара уточните у продавца."
   }
 ]
