@@ -43,8 +43,10 @@ export function enrichCatalog(products) {
       image:'/assets/'+source.file,
       imageSource:source.source,
       imageLabel:'Лавка Шамана',
-      imageAlt:product.name+' — изображение из каталога Лавки Шамана',
-      imageNote:'Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.'
+      imageAlt:source.alt||product.name+' — изображение из каталога Лавки Шамана',
+      imageNote:source.note||'Изображение из каталога Лавки Шамана, предоставленное для этой витрины. Оформление и фасовка на изображении могут отличаться от выбранных. Точную упаковку уточните у продавца.',
+      ...(source.gallery?{imageGallery:source.gallery}:{}),
+      ...(source.variantImages?{variantImages:source.variantImages}:{})
     });
   }
   for (const source of supplierImages.filter(source=>source.collection==='brand-materials-20261028')) {

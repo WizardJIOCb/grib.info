@@ -64,7 +64,13 @@
     if(el.hasAttribute('data-qty')){const i=Number(el.dataset.qty);if(!cart[i])return;cart[i].qty+=Number(el.dataset.delta);cart=cart.filter(r=>r.qty>0);saveCart();renderCart();}
     if(el.hasAttribute('data-remove')){cart.splice(Number(el.dataset.remove),1);saveCart();renderCart();}
   });
-  $('#products').addEventListener('change',e=>{if(!e.target.matches('[data-variant]'))return;const p=products.find(p=>p.id===e.target.dataset.variant),v=p.variants[Number(e.target.value)];document.querySelector(`[data-price="${p.id}"]`).innerHTML=priceMarkup(p,v);});
+  $('#products').addEventListener('change',e=>{
+    if(!e.target.matches('[data-variant]'))return;
+    const p=products.find(p=>p.id===e.target.dataset.variant),v=p.variants[Number(e.target.value)];
+    document.querySelector(`[data-price="${p.id}"]`).innerHTML=priceMarkup(p,v);
+    const selectedImage=p.variantImages?.[e.target.value],image=e.target.closest('.product-card').querySelector('.product-art img');
+    if(selectedImage&&image){image.src=selectedImage.image;image.alt=selectedImage.alt||p.imageAlt||p.name;}
+  });
   $('#search').addEventListener('input',renderCatalog);
   $('#reset-search').addEventListener('click',()=>{$('#search').value='';category='all';renderFilters();renderCatalog();});
   $('#order-city').addEventListener('input',updateOrder);$('#order-comment').addEventListener('input',updateOrder);

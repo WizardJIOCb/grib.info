@@ -462,5 +462,44 @@
     "originalImageSource": "https://muhomorych.ru/uploads/product/200/270/IMG_0110.JPG",
     "sha256": "2fe654e8b918169be7b28f486ff0abbb46d5b8b5f45fc5b4022744517c3690d6",
     "checkedAt": "2026-10-28"
+  },
+  {
+    "supplier": "shamanchik.ru",
+    "productId": "panther-dry",
+    "file": "shamanchik/panther-dry.jpg",
+    "source": "https://shamanchik.ru/product-images/1781348579713-f015c478-a317-44d2-88fa-1c08acbf8836-photo_2026-06-13_13-54-17.jpg",
+    "sourceProductId": 30,
+    "sourceProductTitle": "Пантерный Гриб(Шляпки) 2026",
+    "sha256": "4244be6f1bccbf3e01265c7a79f8a9a38c02fe571671c6cf46815b7588217a21",
+    "checkedAt": "2026-10-30",
+    "alt": "Пантерный гриб, шляпки — изображение из каталога Лавки Шамана",
+    "note": "Основное изображение — шляпки пантерного гриба; ниже показан молотый вариант. Изображения из каталога Лавки Шамана. Оформление упаковки и фасовка могут отличаться от выбранных.",
+    "gallery": [
+      {
+        "image": "/assets/shamanchik/panther-ground.jpg",
+        "alt": "Пантерный гриб, молотый — изображение из каталога Лавки Шамана",
+        "source": "https://shamanchik.ru/product-images/1781348573025-5206236d-84bf-4f7c-953f-064ad8cc6d53-photo_2026-06-13_13-54-17__2_.jpg",
+        "sourceProductId": 29,
+        "sha256": "87ae8b2a3d22e0c9eb4c415997cdde2d15f0196deeb0322c4f6071fdf144d07f"
+      }
+    ],
+    "variantImages": {
+      "0": {
+        "image": "/assets/shamanchik/panther-dry.jpg",
+        "alt": "Пантерный гриб, шляпки — изображение из каталога Лавки Шамана"
+      },
+      "1": {
+        "image": "/assets/shamanchik/panther-dry.jpg",
+        "alt": "Пантерный гриб, шляпки — изображение из каталога Лавки Шамана"
+      },
+      "2": {
+        "image": "/assets/shamanchik/panther-ground.jpg",
+        "alt": "Пантерный гриб, молотый — изображение из каталога Лавки Шамана"
+      },
+      "3": {
+        "image": "/assets/shamanchik/panther-ground.jpg",
+        "alt": "Пантерный гриб, молотый — изображение из каталога Лавки Шамана"
+      }
+    }
   }
 ]

@@ -476,7 +476,39 @@
     "priceSource": "https://t.me/MycoMarket_URAL/131",
     "priceSourceDate": "2026-10-21",
     "priceCheckedAt": "2026-10-28",
-    "priceStatus": "published"
+    "priceStatus": "published",
+    "image": "/assets/shamanchik/panther-dry.jpg",
+    "imageSource": "https://shamanchik.ru/product-images/1781348579713-f015c478-a317-44d2-88fa-1c08acbf8836-photo_2026-06-13_13-54-17.jpg",
+    "imageLabel": "Лавка Шамана",
+    "imageAlt": "Пантерный гриб, шляпки — изображение из каталога Лавки Шамана",
+    "imageNote": "Основное изображение — шляпки пантерного гриба; ниже показан молотый вариант. Изображения из каталога Лавки Шамана. Оформление упаковки и фасовка могут отличаться от выбранных.",
+    "imageGallery": [
+      {
+        "image": "/assets/shamanchik/panther-ground.jpg",
+        "alt": "Пантерный гриб, молотый — изображение из каталога Лавки Шамана",
+        "source": "https://shamanchik.ru/product-images/1781348573025-5206236d-84bf-4f7c-953f-064ad8cc6d53-photo_2026-06-13_13-54-17__2_.jpg",
+        "sourceProductId": 29,
+        "sha256": "87ae8b2a3d22e0c9eb4c415997cdde2d15f0196deeb0322c4f6071fdf144d07f"
+      }
+    ],
+    "variantImages": {
+      "0": {
+        "image": "/assets/shamanchik/panther-dry.jpg",
+        "alt": "Пантерный гриб, шляпки — изображение из каталога Лавки Шамана"
+      },
+      "1": {
+        "image": "/assets/shamanchik/panther-dry.jpg",
+        "alt": "Пантерный гриб, шляпки — изображение из каталога Лавки Шамана"
+      },
+      "2": {
+        "image": "/assets/shamanchik/panther-ground.jpg",
+        "alt": "Пантерный гриб, молотый — изображение из каталога Лавки Шамана"
+      },
+      "3": {
+        "image": "/assets/shamanchik/panther-ground.jpg",
+        "alt": "Пантерный гриб, молотый — изображение из каталога Лавки Шамана"
+      }
+    }
   },
   {
     "id": "lions-fruit",
