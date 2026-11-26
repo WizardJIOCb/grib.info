@@ -3,7 +3,7 @@
   const $ = s => document.querySelector(s);
   const money = n => new Intl.NumberFormat('ru-RU').format(n) + ' ₽';
   const esc = v => String(v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const categories = [{id:'all',label:'Всё'},{id:'soma',label:'Сома'},{id:'dry',label:'Сушёные грибы'},{id:'mycelium',label:'Зерномицелий'},{id:'natural',label:'Мёд и другое'},{id:'capsules',label:'Капсулы и экстракты'},{id:'archive',label:'По запросу'}];
+  const categories = [{id:'all',label:'Всё'},{id:'soma',label:'Сома'},{id:'dry',label:'Сушёные грибы'},{id:'mycelium',label:'Зерномицелий'},{id:'natural',label:'Мёд и другое'},{id:'capsules',label:'Капсулы и экстракты'},{id:'care',label:'Уход'},{id:'archive',label:'По запросу'}];
   let products = [], category = 'all', cart = [], toastTimer;
   const productDialog = $('#product-dialog'), cartDialog = $('#cart-dialog');
   const art = type => {
@@ -48,7 +48,7 @@
     const photo=p.image?`<figure class="product-gallery"><img src="${esc(p.image)}" alt="${esc(p.imageAlt||p.name)}"><figcaption>${esc(p.imageNote||'Изображение из канала лавки.')} ${p.imageSource?`<a href="${esc(p.imageSource)}" target="_blank" rel="noopener noreferrer">Источник ↗</a>`:''}</figcaption></figure>`:'';
     const gallery=(p.imageGallery||[]).length?`<div class="product-extra-images">${p.imageGallery.map(image=>`<a href="${esc(image.image)}" target="_blank" rel="noopener noreferrer" aria-label="Открыть дополнительное фото: ${esc(p.name)}"><img src="${esc(image.image)}" alt="${esc(image.alt||p.name)}" loading="lazy"></a>`).join('')}</div>`:'';
     const declaration=p.declaration?`<p class="small"><a class="text-link" href="${esc(p.declaration.href)}" target="_blank" rel="noopener noreferrer">${esc(p.declaration.title)} · PDF ↗</a></p>`:'';
-    const priceSource=p.priceSource?`<p class="small"><a class="text-link" href="${esc(p.priceSource)}" target="_blank" rel="noopener noreferrer">Прайс от 21 октября ↗</a>${p.alternativePriceSource?` · <a href="${esc(p.alternativePriceSource)}" target="_blank" rel="noopener noreferrer">Пост с другой ценой</a>`:''}</p>`:'';
+    const priceSource=p.priceSource?`<p class="small"><a class="text-link" href="${esc(p.priceSource)}" target="_blank" rel="noopener noreferrer">${esc(p.priceSourceLabel||'Прайс от 21 октября ↗')}</a>${p.alternativePriceSource?` · <a href="${esc(p.alternativePriceSource)}" target="_blank" rel="noopener noreferrer">Пост с другой ценой</a>`:''}</p>`:'';
     $('#product-detail').innerHTML=`<p class="eyebrow">${esc(p.label)}</p><h2 id="product-title">${esc(p.name)}</h2>${photo}${gallery}<p>${esc(p.details)}</p><ul>${p.variants.map(v=>`<li>${esc(v.label)} — ${v.price===null?'цена по запросу':money(v.price)}${v.priceNote?`<span class="price-discrepancy">${esc(v.priceNote)}</span>`:''}</li>`).join('')}</ul>${p.sourceNote?`<p class="small">${esc(p.sourceNote)}</p>`:''}${priceSource}${declaration}<p class="small">Точный состав, назначение, маркировку, наличие и ограничения конкретного товара уточните у продавца до покупки.</p><a class="button primary" href="https://t.me/MuxomorURAL?text=${encodeURIComponent('Здравствуйте! Подскажите подробнее о товаре: '+p.name)}" target="_blank" rel="noopener noreferrer">Уточнить у продавца ↗</a>`;
     productDialog.showModal();
   }

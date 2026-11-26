@@ -1,5 +1,6 @@
 import { writeFile } from 'node:fs/promises';
 import { enrichCatalog } from './enrich-catalog.mjs';
+import { applyMuhomorychCatalog } from './catalog-muhomorych.mjs';
 const products=[];
 const palette={soma:['#ead8cb','#a45638'],dry:['#e5e6d8','#72775b'],mycelium:['#e8decb','#927247'],natural:['#f0e1be','#987637'],capsules:['#e2e4df','#748274'],archive:['#e2e4df','#748274']};
 function add(id,name,category,label,description,variants,extra={}){const [color,ink]=palette[category];products.push({id,name,category,label,description,variants:variants.map(([label,price])=>({label,price})),color,ink,art:category==='soma'?'bottle':category==='dry'?'mushroom':category==='natural'?'honey':'bag',artLabel:category==='soma'?'Грибная сома':category==='mycelium'?'Зерномицелий':category==='natural'?'С пасеки и с теплом':category==='archive'?'Уточните у продавца':'Грибное сырьё',code:String(products.length+1).padStart(2,'0'),details:description,sourceNote:category==='archive'?'Товар из ранней записи сообщества. Наличие и актуальную стоимость нужно подтвердить перед заказом.':'Фасовки и цены из верхнего прайса «Ассортимент и цены» на сохранённой странице сообщества.',...extra});}
@@ -32,5 +33,6 @@ add('black-cumin-oil','Чёрный тмин · масло','archive','Масл�
 add('veselka-extract','Весёлка · экстракт','archive','Экстракт в капсулах · по запросу','Количество капсул, фасовка и стоимость уточняются.',[['Фасовка по согласованию',null]],{details:'Экстракт весёлки в капсулах. Продукт добавлен по предоставленным материалам МухоморыЧа. Полный состав, количество капсул, назначение и наличие уточните у продавца.',sourceNote:'Товар добавлен по материалам владельца витрины и изображению производителя. Подтверждённого прайса и фасовки пока нет.',priceStatus:'on_request'});
 
 enrichCatalog(products);
+applyMuhomorychCatalog(products);
 await writeFile(new URL('./public/catalog.json',import.meta.url),JSON.stringify(products,null,2)+'\n');
 console.log(`${products.length} продуктов, ${products.reduce((n,p)=>n+p.variants.length,0)} вариантов`);
